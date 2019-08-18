@@ -1,33 +1,34 @@
-.App {
-  text-align: center;
+.row {
+  background-color: #333;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.lable {
+  color: aliceblue;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.position {
+  position: relative;
+  left: 95px;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  display: inline-block;
+  background-image: url(./img/sprite.png);
+  background-repeat: no-repeat;
+  background-size: 120px auto; 
+  background-position: 17px -51px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  background-color: #191919;
+}
+
+.footer {
+  height: 70px;
+  background-color: #191919;
+  color: aliceblue;
+}
+
+.moviesItem {
+  color: aliceblue;
 }
